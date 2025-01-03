@@ -189,3 +189,13 @@ Data[3] headlights
 Data[0-1] steering angle: 0x0000-7FFF straight to left, 0xFFFF-8000 straight to right
 Data[7] steering velocity?
 </pre>
+
+<br>
+
+### PS ECU Data Identification
+
+<pre>
+0x370    LEN: 8    Data: 67 00 00 00 00 03 00 00
+Data[0] torque
+Data[5] status counter 0x00-0F
+</pre>
