@@ -163,7 +163,6 @@ Data[0] status of buttons, defog,fanspd...
 Data[1] status counter 0x00-0F
 </pre>
 
-
 <br>
 
 ### BCM Data Identification
@@ -179,4 +178,14 @@ Data[1] status counter 0x00-0F
 Data[1] driver door open
 Data[2] lock/unlock button
 Data[3] headlights
+</pre>
+
+<br>
+
+### Steering Angle Data Identification
+
+<pre>
+0x18     LEN: 8    Data: 00 02 70 08 00 00 00 9A
+Data[0-1] steering angle: 0x0000-7FFF straight to left, 0xFFFF-8000 straight to right
+Data[7] steering velocity?
 </pre>
